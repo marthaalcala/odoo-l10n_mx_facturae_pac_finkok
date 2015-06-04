@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<openerp>
+
+    <data noupdate="1">
+        
+        <record id="params_pac_finkok_cancelar_test" model="params.pac">
+            <field name="method_type">cancel</field>
+            <field name="url_webservice">http://demo-facturacion.finkok.com/servicios/soap/stamp.wsdl</field>
+            <field name="namespace">http://facturacion.finkok.com/stamp</field>
+            <field name="user">joejunior23@hotmail.com</field>
+            <field name="password">E$ponja250</field>
+            <field name="name">FINKOK - Cancel</field>
+            <field name="certificate_link">http://wiki.finkok.com/doku.php</field>
+        </record>
+        
+        <record id="params_pac_finkok_firmar_test" model="params.pac">
+            <field name="method_type">stamp</field>
+            <field name="url_webservice">http://demo-facturacion.finkok.com/servicios/soap/stamp.wsdl</field>
+            <field name="namespace">http://facturacion.finkok.com/stamp</field>
+            <field name="user">joejunior23@hotmail.com</field>
+            <field name="password">E$ponja250</field>
+            <field name="name">FINKOK - Sign</field>
+            <field name="certificate_link">http://wiki.finkok.com/doku.php</field>
+        </record>
+
+  
+    </data>
+</openerp>
